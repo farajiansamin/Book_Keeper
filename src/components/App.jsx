@@ -19,7 +19,7 @@ function App() {
     console.log("delete is called");
     setNotes((prevNotes) => {
       return prevNotes.filter((noteItem, index) => {
-        return index != id;
+        return index !== id;
       });
     });
   }
