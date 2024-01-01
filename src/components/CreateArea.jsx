@@ -44,7 +44,7 @@ function CreateArea(props) {
           value={note.content}
         />
         {expanded && (
-          <Zoom in={true}>
+          <Zoom in={expanded}>
             <Fab>
               <AddCIcon onClick={handleClick} />
             </Fab>
