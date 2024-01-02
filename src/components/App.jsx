@@ -36,6 +36,8 @@ function App() {
             title={noteItem.title}
             content={noteItem.content}
             deleteNote={removeNote}
+            tagAuthor={noteItem.author}
+            tagGenres={noteItem.genres}
           />
         );
       })}

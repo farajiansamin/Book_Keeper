@@ -45,6 +45,7 @@ footer p {
   width: 240px;
   margin: 16px;
   float: left;
+  display: block;
 }
 .note h1 {
   font-size: 1.1em;
@@ -68,11 +69,12 @@ footer p {
   cursor: pointer;
   outline: none;
   box-shadow: none;
+  margin-top: 6rem;
 }
 
 form.create-note {
   position: relative;
-  width: 480px;
+  width: 600px;
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
@@ -85,10 +87,37 @@ form.create-note textarea {
   border: none;
   padding: 4px;
   outline: none;
-  font-size: 1.2em;
+  font-size: 1.06 em;
   font-family: inherit;
   resize: none;
 }
+
+#tag {
+  width: 50%;
+  background-color: #cccccc27;
+  padding: 2px;
+  outline: none;
+  font-size: 1 em;
+  font-family: inherit;
+  resize: both;
+  border-radius: 4px;
+}
+.tag_container {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  margin-bottom: 0.1em;
+  background-color: antiquewhite;
+}
+
+#tag_item {
+  height: 5px;
+  width: 30%;
+  background-color: rgb(218, 216, 216);
+  display: inline-flex;
+  margin-left: 0.5em;
+  border-radius: 50%;
+}
+
 form.create-note button {
   position: absolute;
   right: 18px;
