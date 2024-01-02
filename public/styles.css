@@ -50,6 +50,8 @@ footer p {
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 .note p {
   font-size: 1.1em;
@@ -69,7 +71,7 @@ footer p {
   cursor: pointer;
   outline: none;
   box-shadow: none;
-  margin-top: 6rem;
+  margin-top: 4em;
 }
 
 form.create-note {
@@ -104,18 +106,18 @@ form.create-note textarea {
 }
 .tag_container {
   display: inline-block;
-  padding: 0.5em 0.75em;
-  margin-bottom: 0.1em;
-  background-color: antiquewhite;
+  margin-top: 3em;
+  margin-right: 10px;
+  width: auto;
 }
 
 #tag_item {
-  height: 5px;
-  width: 30%;
-  background-color: rgb(218, 216, 216);
+  height: 26px;
+  width: auto;
+  background-color: rgba(12, 89, 243, 0.229);
   display: inline-flex;
-  margin-left: 0.5em;
-  border-radius: 50%;
+  margin-left: 0.3em;
+  border-radius: 20px;
 }
 
 form.create-note button {
